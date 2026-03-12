@@ -52,7 +52,7 @@ def predict_churn(customer: CustomerData):
     """
     try:
         # Convert the json payload to an encoded DataFrame
-        df = pd.DataFrame([customer.dict()])
+        df = pd.DataFrame([customer.model_dump()])
         df_encoded = pd.get_dummies(df, drop_first=True)
 
         # Align the inference DataFrame structure with the training feature structure
