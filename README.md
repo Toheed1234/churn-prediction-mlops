@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/logo.png" alt="Churn Prediction Logo" width="200" />
+</div>
+
 # Customer Churn Prediction: MLOps Pipeline
 
 This is an end-to-end Machine Learning pipeline designed to predict customer churn. The project demonstrates model training alongside software engineering and MLOps best practices, including containerization, automated testing, and CI/CD.
