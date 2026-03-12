@@ -1,0 +1,34 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.tox
+
+# Model files (Let users generate these by running train.py!)
+model/
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# Data files
+data/
+*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
